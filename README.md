@@ -90,4 +90,4 @@ src/
 | ![App Screenshot](./demo/android1.png) | ![App Screenshot](./demo/android2.png) | ![App Screenshot](./demo/android3.png) | ![App Screenshot](./demo/android4.png) |
 
 ## Android Demo Video
-<video controls src="https://github.com/rahul-singh-solanki/FIVE-Holdings/raw/refs/heads/main/demo/final1.mov" title="./demo/final1.mov"></video>
+<video controls src="https://github.com/rahul-singh-solanki/FIVE-Holdings/raw/refs/heads/main/demo/final1.mov" title="./demo/final1.mov" width="500px"></video>
