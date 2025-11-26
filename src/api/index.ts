@@ -1,0 +1,1 @@
+export { default as ProductsAPI } from 'api/endpoints/products'
