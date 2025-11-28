@@ -1,11 +1,13 @@
 import { StackNavigationOptions, StackScreenProps } from '@react-navigation/stack'
 
 export enum StackScreen {
-  HOME = 'HOME'
+  HOME = 'HOME',
+  DETAIL = 'DETAIL',
 }
 
 export type StackParamsList = {
   [StackScreen.HOME]: undefined;
+  [StackScreen.DETAIL]: {productId: number};
 };
 
 export type StackScreenOptions = (

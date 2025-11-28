@@ -11,8 +11,18 @@ function fetchProducts(limit: number, offset: number) {
   })
 }
 
+function fetchCategoryProduct(category: string, limit: number, offset: number) {
+  return api.get<ProductResponse>(`/products/category/${category}`, {
+    params: {
+      limit,
+      skip: offset,
+    },
+  })
+}
+
 const ProductsAPI = {
   fetchProducts,
+  fetchCategoryProduct
 }
 
 export default ProductsAPI

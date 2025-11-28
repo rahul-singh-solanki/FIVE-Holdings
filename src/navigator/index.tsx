@@ -4,6 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 import Home from "screens/home"
 import { StackParamsList, StackScreen } from "types/RootStackParams"
+import DETAIL from "screens/detail"
 
 const Stack = createStackNavigator<StackParamsList>()
 
@@ -12,6 +13,7 @@ function Navigator() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name={StackScreen.HOME} component={Home} />
+        <Stack.Screen name={StackScreen.DETAIL} component={DETAIL} />
       </Stack.Navigator>
     </NavigationContainer>
   )
